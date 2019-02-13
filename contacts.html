@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Консультация психотерапевта</title>		
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+
+<!-- only for psyhoterapevt's page  -->
+<link rel="stylesheet" type="text/css" href="css/style1.css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+  <style> [data-sr] { visibility: hidden; } </style>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:100,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <nav id="presentation-navigation" class="presentation-navigation psyhoter" data-content-field="presentation-mainNav">
+    <p class="exe-logo"><a href="main.html"><span>Выход</span>есть</a></p>
+    <ul class="nav-list" style="">
+      <li class="nav-item"><a href="nav-link">Что такое психотерапия</a></li>
+		<li class="nav-item dropdown">
+			<a class="dropdown-toggle" href="consultation.html">
+			Консультирование			
+			</a>
+			<ul class="dropdown-menu nav-list">
+				<li>
+				<a href="#">Семейная терапия</a>
+				</li>
+			</ul>
+		</li>
+      <li class="nav-item"><a href="nav-link">Наши психотерапевты</a></li>
+      <li class="nav-item"><a class="active"  href="nav-link">Контакты</a></li>
+    </ul>
+	 <p class="exe-tel">+83 044 456 78 89</p>
+
+  </nav>
+  <div class="content">
+    <section class="intro psyhoter">
+      <div class="text-wrapper align-center-vertical align-left" 
+	  data-sr="enter bottom move 70vh wait 0.5s over 1.0s">
+        <h1 class="headline"> 
+          Наш кабинет
+        </h1>
+		<p class="lede">г. Киев <br />ул. Почайнинская, 53/55, оф. 12</p>
+        <button class="btn btn-1 btn-1b">Задать вопрос</button>
+      </div>
+      <div class="header ">
+      </div>
+    </section>
+    <section class="container contentSection">
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.3166146233657!2d30.514371100000012!3d50.47244920000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce13e566b1e5%3A0xaf068bf95a20a4d1!2z0LLRg9C7LiDQn9C-0YfQsNC50L3QuNC90YHRjNC60LAsIDUzLCDQmtC40ZfQsiwg0KPQutGA0LDRl9C90LA!5e0!3m2!1suk!2s!4v1431167670563" width="1100" height="500" frameborder="0" style="border:0"></iframe>
+	
+
+
+    </section>
+
+	<section class="footer">
+	<a href=""><i class="fa fa-facebook fa-2x"></i></a>
+	<a href=""><i class="fa fa-google-plus fa-2x"></i></a>
+	<a href=""><i class="fa fa-twitter fa-2x"></i></a>
+	<a href=""><i class="fa fa-vk fa-2x"></i></a>
+	</section>
+	
+					
+
+  </div>
+ <script src="js/scrollReveal.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+       window.sr= new scrollReveal({
+		move: '50px',
+		mobile: true,
+		vFactor: 0.10,
+		opacity: .8,
+		delay: 'onload',
+		});
+</script>
+
+<script type="text/javascript">
+//режим отображения шапки
+win_h = $(window).height();
+$(window).scroll(function() {
+if ($(this).scrollTop() > win_h-80){
+$('.presentation-navigation').addClass("sticky");
+}
+else{
+$('.presentation-navigation').removeClass("sticky");
+}
+});
+</script>
+		<script src="js/classie.js"></script>
+		<script src="js/main.js"></script>
+</body>
+</html>
